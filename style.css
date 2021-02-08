@@ -1,0 +1,284 @@
+body{
+	font-family: roboto;
+}
+
+.main-container{
+	max-width: 640px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo-header{
+	text-align: center;
+	transform: scale(0.3);
+}
+
+.header-container{
+	text-align: center;
+	background-color: #F5F5F5;
+}
+
+.header-title h3{
+	font-weight: bolder;
+}
+
+.header-title p{
+	font-weight: lighter;
+}
+
+.bouton-resto{
+	text-align: center;
+	padding: 40px;
+}
+
+.bouton-resto button{
+	border: none;
+	background: linear-gradient(#FF79DA, #9356DC );
+	padding: 10px;
+	color: white;
+	border-radius: 20px;
+
+}
+
+.fonctionnement{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.fonctionnement h3{
+	margin: 0;
+	margin-left: 37px;
+	padding: 30px 0;
+}
+
+.choose{
+	display: flex;
+	align-items: baseline;
+	background-color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+	border-radius: 15px;
+	margin: 10px;
+	width: 250px;
+}
+
+.choose:hover .puces-fonctionnement i{
+	color: #9356DC;
+}
+
+.choose:hover{
+	background-color: #EBE1F0;
+}
+
+.puce-card i:hover{
+	color: #9356DC;
+	
+
+}
+
+
+.choices{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.num-list{
+	padding: 2px;
+	background-color: #9356DC; 
+	border: 1px solid #9356DC;
+	border-radius: 50%;
+	color: white;
+	margin-left: -10px;
+	width: 15px;
+	height: 15px;
+}
+
+.num-list p{
+	color: white;
+	text-align: center;
+	font-size: small;
+
+
+}
+
+.choose i{
+	padding: 20px;
+	color: #6C7070;
+}
+
+.restaurant-list{
+	background-color: #F2F2F2;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.restaurant-list h3{
+	margin: 0;
+	margin-left: 37px;
+}
+
+.cardrow{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.card-infos{
+	display: flex;
+	align-content: baseline;
+	justify-content: space-between;
+}
+
+.nouveau{
+	margin: 0;
+	width: 65px;
+	font-size: small;
+	display: flex;
+	justify-content: center;
+	padding: 3px;
+}
+
+.card-text h5, p{
+	margin: 0;
+}
+
+.cardrow-link{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+.cardrow-link a, p, i, h5{
+	color: black;
+}
+
+.card{
+	background-color: white;
+	width: 250px;
+	margin-top: 10px;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.nouveau{
+	background-color: #99E2D0;
+	color: teal;
+	font-weight: 500;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	border-radius: 2px;
+}
+
+.card-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.puce-card{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+.card img{
+	width: 250px;
+	height: 120px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	object-fit: cover;
+}
+
+.footerheader{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logofooter{
+	padding-top: 30px;
+	color: white;
+	transform: scale(0.5);
+	display: flex;
+}
+
+.title-footer{
+	font-family: shrikhand;
+	color: white;
+	padding-left: 8px;
+}
+
+.title-footer h3{
+	margin: 10 0;
+}
+
+.footertotal{
+	display: flex;
+	flex-direction: column;
+	background-color: #404545;
+	padding-bottom: 30px;
+}
+
+.puce-footer{
+	display: flex;
+	flex-direction: row;
+}
+
+.puce-footer2{
+	display: flex;
+	flex-direction: row;
+}
+
+.puce-footer i{
+	color: white;
+	padding: 8px;
+}
+
+.puce-footer2 i{
+	color: white;
+	padding: 6px;
+}
+
+.option-footer p{
+	color: white;
+	padding: 8px;
+}
+
+.option-footer2{
+	display: flex;
+
+}
+
+.option-footer2 p{
+	color: white;
+	padding: 5px;
+}
+
+.footer-text p,a{
+	color: white;
+	text-decoration: none;
+	padding: 8px;
+}
+
+
+.footer-puce{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+.option-footer{
+	display: flex;
+
+}
+
+
+
