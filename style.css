@@ -6,7 +6,6 @@ body{
 }
 
 .main-container{
-	max-width: 640px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -305,7 +304,6 @@ body{
 
 .puce-coeur-menu i{
 	margin-right: 30px;
-	font-weight: lighter;
 }
 
 .title-header h3{
@@ -313,10 +311,11 @@ body{
 	text-align: center;
 }
 
-.menu-img img{
-	object-fit: cover;
-	width: 640px;
-	height: 230px;
+
+.menu-img{
+	background-image: url("./img/resto/palette.jpg");
+	background-size: cover;
+	min-height: 230px;
 	position: relative;
 }
 
@@ -334,8 +333,8 @@ body{
 
 .title-h4{
 	font-weight: lighter;
-	border-bottom: 2px solid #99E2D0;
-	border-width: 50%;
+	margin-left: 14px;
+
 }
 
 .card-container{
