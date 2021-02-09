@@ -40,7 +40,6 @@ body{
 	padding: 10px;
 	color: white;
 	border-radius: 20px;
-
 }
 
 .fonctionnement{
@@ -313,10 +312,25 @@ body{
 
 
 .menu-img{
-	background-image: url("./img/resto/palette.jpg");
 	background-size: cover;
 	min-height: 230px;
 	position: relative;
+}
+
+.menu-img-palette{
+	background-image: url("./img/resto/palette.jpg");
+}
+
+.menu-img-french{
+	background-image: url("./img/resto/french.jpg");
+}
+
+.menu-img-delice{
+	background-image: url("./img/resto/délice.jpg");
+}
+
+.menu-img-note{
+	background-image: url("./img/resto/enchantée.jpg");
 }
 
 .title-menu{
@@ -333,13 +347,21 @@ body{
 
 .title-h4{
 	font-weight: lighter;
-	margin-left: 14px;
+	margin: 0 0 0 14px;
+	
+}
 
+hr{
+	border: 1px solid #99E2D0;
+	width: 10%;
+	margin:4px 0 0 14px;
+	padding: 0;
 }
 
 .card-container{
 	display: flex;
 	flex-direction: column;
+	padding: 10px 0;
 }
 
 .card-menu{
