@@ -1,5 +1,8 @@
+/* STYLE INDEX.html*/
+
 body{
 	font-family: roboto;
+	margin: 0;
 }
 
 .main-container{
@@ -74,10 +77,7 @@ body{
 
 .puce-card i:hover{
 	color: #9356DC;
-	
-
 }
-
 
 .choices{
 	display: flex;
@@ -101,8 +101,6 @@ body{
 	color: white;
 	text-align: center;
 	font-size: small;
-
-
 }
 
 .choose i{
@@ -268,7 +266,6 @@ body{
 	padding: 8px;
 }
 
-
 .footer-puce{
 	display: flex;
 	flex-direction: column;
@@ -277,8 +274,122 @@ body{
 
 .option-footer{
 	display: flex;
+}
+
+
+
+/* STYLE MENUS*/
+
+
+
+.main-menu{
+	background-color: #F2F2F2;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	margin-top: -40px;
+	z-index: 2;
+}
+
+.header-menu{
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	z-index: 1;
+}
+
+.back-arrow{
+	position: absolute;
+	left: 10px;
+	top: 12px;
+}
+
+.puce-coeur-menu i{
+	margin-right: 30px;
+	font-weight: lighter;
+}
+
+.title-header h3{
+	font-family: shrikhand;
+	text-align: center;
+}
+
+.menu-img img{
+	object-fit: cover;
+	width: 640px;
+	height: 230px;
+	position: relative;
+}
+
+.title-menu{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+
+.title-menu h3{
+	font-family: shrikhand;
+	margin-left: 20px;
+}
+
+.title-h4{
+	font-weight: lighter;
+	border-bottom: 2px solid #99E2D0;
+	border-width: 50%;
+}
+
+.card-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-menu{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 3px 3px 3px 3px #F2F2F2;
+}
+
+.card-text{
+	display: flex;
+	flex-direction: column;
 
 }
 
+.card-text p{
+	font-size: smaller;
+	font-weight: lighter;
+	padding-top: 6px;
+}
+
+.card-text h5{
+	font-size: bolder;
+}
+
+.card-price{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	font-size: small;
+}
+
+.order-container{
+	margin: 30px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.order button{
+	border:none;
+	text-align: center;
+	background: linear-gradient(#FF79DA, #9356DC );
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
 
 

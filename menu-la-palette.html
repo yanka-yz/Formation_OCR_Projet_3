@@ -1,135 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<title>La palette du goût</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>La palette du goût</title>
 </head>
 <body>
-	<header>
-		
-	</header>
-
-	<div class="la-palette-main">
-		<div class="title-la-palette">
-			<h3>La palette du goût</h3>
-			puce coeur
+	<div class="main-container">
+		<header>
+			<div class="header-menu">
+				<a href="index.html" class="back-arrow">
+					<div class="puce-back-arrow">
+						<i class="fas fa-arrow-left"></i>
+					</div>
+				</a>
+				<div class="title-header">
+					<h3>ohmyfood</h3>
+				</div>
+			</div>	
+			<div class="menu-img">
+				<img src="./img/resto/palette.jpg" alt="">
+			</div>
+		</header>
+	
+		<div class="main-menu">
+			<div class="title-menu">
+				<h3>La palette du goût</h3>
+				<div class="puce-coeur-menu">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<h4 class="title-h4">ENTRÉES</h4>
+			<div class="card-container">
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Fricassée d'escargot</h5>
+						<p>Au piment d'espelette</p>	
+					</div>
+					<div class="card-price">
+						<strong>25€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Foie gras de carnard mi-cuit</h5>
+						<p>Et ses copeaux de truffe noire</p>	
+					</div>
+					<div class="card-price">
+						<strong>35€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Oeuf au plat</h5>
+						<p>Assaisoné à la truffe sur lit de caviar</p>	
+					</div>
+					<div class="card-price">
+						<strong>20€</strong>
+					</div>	
+				</div>
+			</div>
+	
+			<h4 class="title-h4">PLATS</h4>
+			<div class="card-container">
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Filet de bouf aux herbes</h5>
+						<p>Accompagné de sa ribambelle de légumes</p>	
+					</div>
+					<div class="card-price">
+						<strong>40€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Parmentier de queue de boeuf</h5>
+						<p>À la truffe noire sur sa purée de panais</p>	
+					</div>
+					<div class="card-price">
+						<strong>35€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Filet de Turbot</h5>
+						<p>Aux agrumes</p>	
+					</div>
+					<div class="card-price">
+						<strong>44€</strong>
+					</div>	
+				</div>
+			</div>
+	
+			<h4 class="title-h4">DESSERTS</h4>
+			<div class="card-container">
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Paris-Brest</h5>
+						<p>Revisité</p>	
+					</div>
+					<div class="card-price">
+						<strong>18€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Macaron au chocolat d'exeption</h5>
+						<p>Et glace à la vanille de Madagascar</p>	
+					</div>
+					<div class="card-price">
+						<strong>22€</strong>
+					</div>
+				</div>
+				<div class="card-menu">
+					<div class="card-text">
+						<h5>Mousse au chocolat</h5>
+						<p>Au piment d'espelette et à la truffe noire</p>	
+					</div>
+					<div class="card-price">
+						<strong>23€</strong>
+					</div>	
+				</div>
+			</div>
+	
+			<div class="order-container">
+				<div class="order">
+					<button>Commander</button>
+				</div>
+			</div>
 		</div>
-		<h4 class="title-h4">ENTRÉES</h4>
-		<div class="card-container">
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Fricassée d'escargot</h5>
-					<p>Au piment d'espelette</p>	
-				</div>
-				<div class="card-price">
-					<strong>25€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Foie gras de carnard mi-cuit</h5>
-					<p>Et ses copeaux de truffe noire</p>	
-				</div>
-				<div class="card-price">
-					<strong>35€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Oeuf au plat</h5>
-					<p>Assaisoné à la truffe sur lit de caviar</p>	
-				</div>
-				<div class="card-price">
-					<strong>20€</strong>
-				</div>	
-			</div>
-		</div>
 
-		<h4 class="title-h4">PLATS</h4>
-		<div class="card-container">
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Filet de bouf aux herbes</h5>
-					<p>Accompagné de sa ribambelle de légumes</p>	
-				</div>
-				<div class="card-price">
-					<strong>40€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Parmentier de queue de boeuf</h5>
-					<p>À la truffe noire sur sa purée de panais</p>	
-				</div>
-				<div class="card-price">
-					<strong>35€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Filet de Turbot</h5>
-					<p>Aux agrumes</p>	
-				</div>
-				<div class="card-price">
-					<strong>44€</strong>
-				</div>	
-			</div>
-		</div>
-
-		<h4>DESSERTS</h4>
-		<div class="card-container">
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Paris-Brest</h5>
-					<p>Revisité</p>	
-				</div>
-				<div class="card-price">
-					<strong>18€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Macaron au chocolat d'exeption</h5>
-					<p>Et glace à la vanille de Madagascar</p>	
-				</div>
-				<div class="card-price">
-					<strong>22€</strong>
-				</div>
-			</div>
-			<div class="card-menu">
-				<div class="card-text">
-					<h5>Mousse au chocolat</h5>
-					<p>Au piment d'espelette et à la truffe noire</p>	
-				</div>
-				<div class="card-price">
-					<strong>23€</strong>
-				</div>	
-			</div>
-		</div>
-
-		<button class="order">
-			<div>Commander</div>
-		</button>
 	</div>
+	
 
 	<footer>
-		<div class="logofooter">
-			<img src="./img/logo/ohmyfood.png">
-		</div>
-		<div class="footer-puces">
-			<div class="propose">
-				<p>Proposer un restaurant</p>
-				
+		<div class="footertotal">
+			<div class="footerheader">
+				<div class="title-footer">
+					<h3>ohmyfood</h3>
+				</div>
 			</div>
-			<div class="partner">
-				<p>Devenir partenaire</p>
-				
+			<div class="main-footer">
+				<div class="footer-puces">
+					<div class="option-footer">
+						<div class="puce-footer">
+							<i class="fas fa-utensils"></i>
+						</div>
+						<p>Proposer un restaurant</p>
+					</div>
+					<div class="option-footer2">
+						<div class="puce-footer2">
+							<i class="fas fa-hands-helping"></i>
+						</div>
+						<p>Devenir partenaire</p>
+					</div>
+				</div>
+			<div class="footer-text">
+				<p>Mentions légales</p>
+				<a href="mailto:omfcontact@gmail.com">Contact</a>
 			</div>
-		</div>
-		<div class="footer-text">
-			<p>Mentions légales</p>
-			<a href="mailto:omfcontact@gmail.com">Contact</a>
 		</div>
 	</footer>
 </body>
