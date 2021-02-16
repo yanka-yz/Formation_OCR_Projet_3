@@ -538,6 +538,10 @@ hr{
 		flex-wrap: wrap;
 	}
 
+	.fonctionnement h3,.restaurant-list h3{
+		text-align: center;
+	}
+
 	.cardrow{
 		display: flex;
 		justify-content: center;
