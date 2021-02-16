@@ -567,3 +567,27 @@ hr{
 }
 
 
+/* MEDIAS QUERIES MENUS */
+
+@media screen and (min-width: 768px){
+	
+	.card-container{
+		margin: 0 30%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.title-h4{
+		text-align: center;
+	}
+
+	hr{
+		margin: 4px;
+		width: 100%;
+	}
+	
+
+
+}
+
+
