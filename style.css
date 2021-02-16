@@ -308,7 +308,6 @@ body{
 }
 
 
-
 /* STYLE MENUS*/
 
 
@@ -526,6 +525,40 @@ hr{
 	padding: 10px 30px;
 	color: white;
 	border-radius: 20px;
+}
+
+
+/* MEDIAS QUERIES INDEX*/
+
+@media screen and (min-width: 768px){
+	.choices{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.cardrow{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.footerheader{
+		display: flex;
+		justify-content: center;
+	}
+
+	.main-footer{
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer-puce{
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 
