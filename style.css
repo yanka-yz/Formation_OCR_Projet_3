@@ -98,11 +98,18 @@ body{
 
 .coeur-plein{
 	display: none;
+
+}
+
+.puce-card:hover{
+	cursor: pointer;
 }
 
 .puce-card:hover .coeur-plein{
 	color: #9356DC;
 	display: block;
+	cursor: pointer;
+
 }
 
 .puce-card:hover .coeur-vide{
@@ -318,6 +325,7 @@ body{
 	border-top-right-radius: 40px;
 	margin-top: -40px;
 	z-index: 2;
+	position: relative;
 
 }
 
@@ -336,6 +344,40 @@ body{
 
 .puce-coeur-menu i{
 	margin-right: 30px;
+}
+
+.coeur-menu-plein{
+	 display: none;
+	 position: absolute;
+	 top: 24px;
+	 right: 10px;
+	transition: opacity 1s;
+
+}
+
+.coeur-menu-vide:hover{
+	opacity: 0;
+}
+
+.coeur-menu-plein:hover{
+	opacity: 1;
+}
+
+.coeur-menu-plein, .coeur-menu-vide:{
+	transition: opacity 1s;
+}
+
+.puce-coeur-menu:hover .coeur-menu-plein{
+	color: #9356DC;
+	display: block;
+}
+
+.puce-coeur-menu:hover{
+	cursor: pointer;
+}
+
+.puce-coeur-menu:hover .coeur-menu-vide{
+	display: none;
 }
 
 .title-header h3{
@@ -409,11 +451,11 @@ hr{
   }
 
   .card-menu:nth-child(2){
-	  animation-delay: 0.25s;
+	  animation-delay: 0.5s;
   }
 
   .card-menu:nth-child(3){
-	  animation-delay: 0.5s;
+	  animation-delay: 1s;
   }
 
 
