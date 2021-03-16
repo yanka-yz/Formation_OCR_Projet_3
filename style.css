@@ -342,7 +342,7 @@ body{
 }
 
 .title-footer h3{
-	margin: 10 0;
+	margin: 10px 0;
 }
 
 .footertotal{
@@ -625,9 +625,6 @@ hr{
 	
 }
 
-.card-text h5{
-	font-size: bolder;
-}
 
 .card-text h5 ,.card-text p{
 	white-space: nowrap;
